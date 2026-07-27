@@ -6,6 +6,11 @@ baseurl: ""
 theme: minima
 permalink: /:title/
 
+# Pages CMS stamps a date-only value (no time), which Jekyll reads as
+# midnight. Build runners are UTC, so without this a post written between
+# 00:00 and 05:30 IST is dated in the future and Jekyll silently drops it.
+timezone: Asia/Kolkata
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
