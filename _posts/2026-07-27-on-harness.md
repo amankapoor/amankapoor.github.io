@@ -1,7 +1,6 @@
 ---
-layout: post
-title: "On Harness"
+title: On Harness
 date: 2026-07-27
+layout: post
 ---
-
-more than a model
+It is more than a model.
