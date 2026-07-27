@@ -1,5 +1,16 @@
 title: Aman Kapoor
-description: Aman Kapoor is a Computer Science student pursuing B.Tech from Amity University. His technical interests are in web development. He is a Software Engineering Intern with Wirecog, LLC.
-show_downloads: true
-google_analytics:
-theme: jekyll-theme-cayman
+description: Writing and notes.
+url: "https://amankapoor.github.io"
+baseurl: ""
+
+theme: minima
+permalink: /:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
