@@ -10,7 +10,12 @@ content:
     format: yaml-frontmatter
     filename: '{year}-{month}-{day}-{primary}.md'
     view:
-      fields: [title, date]
+      fields: [title, date, published]
+      primary: title
+      sort: [date, title]
+      default:
+        sort: date
+        order: desc
     fields:
       - name: title
         label: Title
@@ -20,6 +25,11 @@ content:
         label: Date
         type: date
         required: true
+      - name: published
+        label: Published
+        type: boolean
+        default: true
+        description: Turn off to keep this a draft. Jekyll skips it, so it gets no page and stays off the index and feed.
       - name: layout
         label: Layout
         type: string
