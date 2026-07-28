@@ -6,6 +6,11 @@ layout: post
 ---
 It is more than a model.
 
+Order of building:  
+1. build observability  
+2. build state and persistence  
+
+
 ```
                 ┌──────────────────────────────────────────┐
 
