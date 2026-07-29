@@ -7,9 +7,11 @@ layout: post
 It is more than a model.
 
 Order of building:  
-1. build observability  
-2. build state and persistence  
 
+1. build observability
+2. build state and persistence
+3. build tools
+4. memory is a layer that *writes into* the context window, so context first
 
 ```
                 ┌──────────────────────────────────────────┐
