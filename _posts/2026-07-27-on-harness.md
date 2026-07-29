@@ -4,14 +4,17 @@ date: 2026-07-27
 published: true
 layout: post
 ---
-It is more than a model.
+It is more than a model.  
+Context is a decision. Memory is a source.
 
 Order of building:  
 
 1. build observability
 2. build state and persistence
 3. build tools
-4. memory is a layer that *writes into* the context window, so context first
+4. memory is a layer that *writes into* the context window, so context first  
+  
+
 
 ```
                 ┌──────────────────────────────────────────┐
