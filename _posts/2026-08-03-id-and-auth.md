@@ -17,3 +17,5 @@ Auth is allowing this person to access allowed resources on our server. This is 
 **Yes, they integrate — and that's the normal pattern.** The verification step is the *challenge*; the auth provider is what happens after.
 
 Concretely, for us: someone proves their phone via OTPless or silent network authentication → byld looks up or creates the identity row → byld issues its own token. The verifier is swappable; the identity is ours.
+
+**This is exactly why decoupling identity first was the right call.** We can change how someone proves who they are — SMS today, WhatsApp tomorrow, silent network after that — without any of it touching who they *are* in our database.
