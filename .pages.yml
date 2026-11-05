@@ -35,9 +35,14 @@ content:
         type: string
         default: post
         hidden: true
+      # Hidden on purpose: the thumbnail is set in the file, not edited from
+      # the CMS. Keep this field defined (do not delete it) or Pages CMS will
+      # drop the existing "image" key from front matter the next time a post
+      # is saved from the editor.
       - name: image
         label: Thumbnail
         type: image
+        hidden: true
         description: Social preview image (og:image / twitter:image). 1200x630 JPG or PNG works best.
       - name: body
         label: Content
