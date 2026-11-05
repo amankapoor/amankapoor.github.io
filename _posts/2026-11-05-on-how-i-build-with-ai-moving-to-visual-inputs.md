@@ -4,6 +4,8 @@ date: 2026-11-05
 published: true
 layout: post
 ---
+![image.png](/assets/images/image.png)
+
 My approach to building with AI will see a change from tomorrow. I have already moved from text to dictation. And now, it is going to be visual inputs.
 
 A few months ago, I was typing to convey what I wanted. In the beginning, I wrote well-formed sentences. But then the rate at which results came back was very slow.  I remember that my fingers also used to hurt sometimes, and in those moments I used to write messily. I found that the output didn't depend on whether I wrote good English or bad English. So, I stopped typing well-constructed sentences and changed to typing my thoughts as fast as I could without any regard to punctuation anymore.
