@@ -15,6 +15,12 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+# Google Analytics 4 measurement ID, e.g. "G-ABC123XYZ". Paste it here to
+# turn tracking on; leave empty to disable. Only rendered when the build runs
+# with JEKYLL_ENV=production (the Pages workflow sets it), so local builds are
+# never counted. The snippet lives in _includes/google-analytics.html.
+google_analytics: ""
+
 exclude:
   - Gemfile
   - Gemfile.lock
