@@ -1,7 +1,7 @@
 ---
 title: On State and Persistence
 date: 2026-07-28
-published: true
+published: false
 layout: post
 ---
 temporally, state is short lived than state  
