@@ -1,0 +1,21 @@
+{%- comment -%}
+  Google Analytics 4 (gtag.js).
+
+  Minima 2.5's bundled include still ships the retired analytics.js / UA
+  snippet, so this file overrides it. The theme's _includes/head.html only
+  calls this file when JEKYLL_ENV=production and site.google_analytics is
+  truthy -- and in Liquid an empty string is truthy, hence the explicit
+  != "" check below so the placeholder value stays inert.
+
+  To enable: put your GA4 measurement ID (e.g. "G-ABC123XYZ") in
+  _config.yml -> google_analytics.
+{%- endcomment -%}
+{%- if site.google_analytics and site.google_analytics != "" -%}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics | escape }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '{{ site.google_analytics | escape }}');
+</script>
+{%- endif -%}
