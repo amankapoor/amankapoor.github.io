@@ -1,4 +1,4 @@
-{#-
+{%- comment -%}
   Google Analytics 4 (gtag.js).
 
   Minima 2.5's bundled include still ships the retired analytics.js / UA
@@ -9,7 +9,7 @@
 
   To enable: put your GA4 measurement ID (e.g. "G-ABC123XYZ") in
   _config.yml -> google_analytics.
--#}
+{%- endcomment -%}
 {%- if site.google_analytics and site.google_analytics != "" -%}
 <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics | escape }}"></script>
 <script>
