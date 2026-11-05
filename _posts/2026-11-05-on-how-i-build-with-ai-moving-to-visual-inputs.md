@@ -3,8 +3,9 @@ title: "On how I build with AI: Moving to visual inputs"
 date: 2026-11-05
 published: true
 layout: post
+image: /assets/images/image.png
 ---
-![image.png](/assets/images/image.png)
+![Moving from typing to dictation to visual inputs](/assets/images/image.png)
 
 My approach to building with AI will see a change from tomorrow. I have already moved from text to dictation. And now, it is going to be visual inputs.
 
