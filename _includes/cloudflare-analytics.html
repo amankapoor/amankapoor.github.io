@@ -10,5 +10,5 @@
   non-empty token here (Liquid treats "" as truthy).
 {%- endcomment -%}
 {%- if site.cloudflare_analytics_token and site.cloudflare_analytics_token != "" -%}
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "{{ site.cloudflare_analytics_token | escape }}"}'></script>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "{{ site.cloudflare_analytics_token | escape }}"}'></script>
 {%- endif -%}

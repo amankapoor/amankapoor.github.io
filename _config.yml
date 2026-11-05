@@ -24,7 +24,7 @@ google_analytics: "G-X1STDVPZC5"
 # Cloudflare Web Analytics token (cookieless). Cloudflare dashboard ->
 # Analytics & logs -> Web Analytics -> Add a site -> copy the "token" from the
 # data-cf-beacon snippet. Leave empty to disable. Also production-only.
-cloudflare_analytics_token: ""
+cloudflare_analytics_token: "df059ef5dbd643f8a7cd6252bd35f146"
 
 exclude:
   - Gemfile
