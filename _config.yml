@@ -19,7 +19,7 @@ plugins:
 # turn tracking on; leave empty to disable. Only rendered when the build runs
 # with JEKYLL_ENV=production (the Pages workflow sets it), so local builds are
 # never counted. The snippet lives in _includes/google-analytics.html.
-google_analytics: ""
+google_analytics: "G-X1STDVPZC5"
 
 # Cloudflare Web Analytics token (cookieless). Cloudflare dashboard ->
 # Analytics & logs -> Web Analytics -> Add a site -> copy the "token" from the
